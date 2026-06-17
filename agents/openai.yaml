@@ -1,0 +1,4 @@
+interface:
+  display_name: "九两场景图"
+  short_description: "生成带九两 IP 的公众号场景配图和长卷故事图，保留个人品牌识别"
+  default_prompt: "用九两 IP 场景图给这篇文章做一张公众号正文配图。"
