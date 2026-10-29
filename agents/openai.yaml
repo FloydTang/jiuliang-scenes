@@ -1,4 +1,4 @@
 interface:
   display_name: "九两场景图"
-  short_description: "生成带九两 IP 的公众号场景配图和长卷故事图，保留个人品牌识别"
-  default_prompt: "用九两 IP 场景图给这篇文章做一张公众号正文配图。"
+  short_description: "用卡通九两、真实材质与微缩场景讲清文章观点，随行业调整物件"
+  default_prompt: "用 $jiuliang-scenes 的九两微缩实物讲解风给这篇文章配图：九两保持卡通识别，主题物件有真实质感，围绕一个动作讲清观点。"

@@ -1,91 +1,45 @@
 # 生图提示词模板
 
-Use these as prompt structures for ImageGen. Replace all braces before generation.
+根据行业填入场景。先参考官方九两人物，再查看 approved-examples.md 中的获认可图片，保留身份与质感，不照搬布料、蓝橙配色或固定站位。
 
-## Standard 16:9 Article Image
-
-```text
-Generate one standalone 16:9 Chinese article illustration for the 半斤九两 / 汤九两 personal IP.
-
-Core style:
-A clean real-object studio scene with generous whitespace. The active character is 卡通九两, a Q-version young AI mentor with silver-blue-purple fluffy hair, round glasses, orange inner shirt, white/light-gray tech jacket, black pants, and black-white-orange sneakers. He is friendly, smart, energetic, not childish, and must perform the core physical action.
-
-Scene:
-Theme: {主题}
-Reader situation: {读者处境}
-Physical metaphor: {抽象观点变成的一个物理动作}
-Real main object: {一个真实主物件或紧凑物件组}
-Jiuliang action: {九两具体动作}
-Short handwritten Chinese labels: {标签1} / {标签2} / {标签3}
-
-Composition:
-16:9 horizontal canvas. Background is {#FFFFFF pure white / warm paper #FAF7F0 / near-white #FBFBFA}. The scene occupies medium-light space, with clear breathing room around objects. Real objects share coherent light, perspective, and soft contact shadows. Use sparse brand-color accents: orange, blue, green, and a tiny red warning/detail only if useful.
-
-Constraints:
-No Xiaohei, no black bean mascot, no robot mascot, no animal mascot, no realistic human photo. No PPT, no infographic, no flowchart, no UI screenshot, no app logo, no dense text, no big title, no stock-photo office, no gradient background, no decorative orbs, no overloaded object inventory. Keep one core physical action and at most two small props.
-```
-
-## Header Image
+## 正文配图 / 讲解图
 
 ```text
-Generate one wide Chinese article header illustration for 半斤九两 / 汤九两.
+Create one complete {aspect ratio, normally 16:9} article illustration for 半斤九两 / 汤九两.
+Style: 九两微缩实物讲解风 — a refined 3D cartoon guide integrated into a tactile, realistic physical scene. Warm ivory studio background, soft diffused lighting, natural contact shadows, coherent perspective, and generous intentional whitespace.
 
-Ratio: {2:1 or 16:9}. Leave safe whitespace for cropping and title overlay. Use 卡通九两 as the recognizable personal-IP actor: silver-blue-purple hair, round glasses, orange inner shirt, white/light-gray tech jacket, black pants, black-white-orange sneakers.
+Core idea: {one article viewpoint}
+Industry: {industry}
+Main object or coherent object group: {objects naturally belonging to this industry}
+Material details: {weave / brushed metal / glass refraction / wood grain / paper edges, as appropriate}
+One explanatory action: Jiuliang {physical action} to make {relationship} visible.
+Scale treatment: {miniature / cutaway / magnified detail / ordinary scale, whichever clarifies this idea}
+Composition: {viewpoint, focal point, character scale, reserved text space}
 
-Article offer/category:
-{文章主题或栏目}
+Character: preserve the supplied official Jiuliang identity — fluffy silver-blue-lavender hair, round glasses, orange inner shirt, white/light-gray tech jacket, black trousers, black-white-orange sneakers. Friendly, clever, recognizable, with dimensional cartoon rendering. He physically participates in the action and shares the scene's lighting. No realistic human face, generic mascot, or flat pasted sticker.
 
-Core visual:
-One real-object scene where Jiuliang {动作} with {真实主物件}. The image should read in 1 second as: {一秒读懂句}.
-
-Labels:
-Use 0-2 very short Chinese labels only if readable at thumbnail size: {标签}
-
-Style:
-Clean, premium, warm, not marketing-poster heavy. Background {背景}. Sparse orange/blue/green accents. Strong silhouette, enough whitespace, no dense copy.
-
-Negative:
-No Xiaohei, no generic anime boy, no animal/robot mascot, no PPT, no big slogan poster, no UI screenshot, no fake logos, no dense paragraphs.
+Typography: {exact short sentence OR 0–3 exact labels OR no text}. Use crisp, readable typeset lettering. Text supports the scene; do not add extra labels. Do not default to handwriting.
+Color: use the real materials' appropriate colors with a calm neutral background; the orange clothing carries brand continuity. No mandatory blue-orange palette.
+Avoid dense diagrams, icon collages, unrelated props, glossy plastic everywhere, dramatic neon, decorative gradients, and stock office scenes. Do not invent certificates, reports, numbers, logos, or QR codes. Produce a conceptual illustration rather than fabricated documentary evidence.
 ```
 
-## Long-Scroll Story
+## 封面
+
+在正文模板基础上，用一个更容易辨认的主体轮廓和动作，保留足够的标题区域。加入：
 
 ```text
-Generate one ultra-wide long-scroll story image for the 半斤九两 / 汤九两 personal IP.
-
-Ratio about 2.6:1 to 3:1. Near-white or warm-paper background with subtle studio air. A loose hand-drawn route travels from left to right. Along it, 5-8 real-object nodes tell a continuous story. At every node, 卡通九两 performs one physical action with the object. The character remains recognizable: silver-blue-purple hair, round glasses, orange inner shirt, white/light-gray tech jacket, black pants, black-white-orange sneakers.
-
-Main story:
-{主线}
-
-Left opening:
-{左侧身份 / 起点 / 开场}
-
-Nodes:
-- {节点主题} | object: {物件} | Jiuliang action: {动作} | note: {短注释}
-- {节点主题} | object: {物件} | Jiuliang action: {动作} | note: {短注释}
-- {节点主题} | object: {物件} | Jiuliang action: {动作} | note: {短注释}
-- {节点主题} | object: {物件} | Jiuliang action: {动作} | note: {短注释}
-- {节点主题} | object: {物件} | Jiuliang action: {动作} | note: {短注释}
-
-Right closing:
-{右侧收束 / 当前关注 / 结论}
-
-Layout:
-Uneven node spacing, natural vertical rhythm, clear whitespace, no numbered circles, no timeline modules, no cards. Notes appear close to objects as light handwritten annotations. Use sparse colored dots, tape, or underlines only as rhythm accents.
-
-Negative:
-No Xiaohei, no black bean character, no robot/animal mascot, no formal timeline chart, no PPT, no dashboard, no UI screenshot, no dense text, no equal-spacing process diagram, no collage chaos.
+Cover format: {target platform and actual aspect ratio}.
+Exact title: {short title}.
+Optional subtitle or series line: {exact wording or none}.
+Use strong, clean editorial typography with a clear hierarchy and breathing room. Keep the title, Jiuliang, and the meaningful action within the platform's crop-safe area. One visual idea, no poster-like block of sales copy. Jiuliang may be small when the main physical scene should dominate.
 ```
 
-## Cutout / Green-Screen Variant
+不要让每张图都复制“左字右人”。中文、英文封面分别组织字数与版面；公众号、LinkedIn、X 长文按各自裁切需求适配。
 
-Use this only when a reusable transparent character or object layer is needed:
+## 长卷与演示文稿视觉
 
-```text
-Generate a clean full-body 卡通九两 character on a solid chroma-green background. The background color must be clearly different from the hair, clothes, skin, and shoes. Keep the full body visible with safe margin. No shadow touching the edge, no props, no text.
+沿用相同材质、人物和灯光。长卷按故事需要设置少量场景，各场景一个动作；PPT 插图为标题或讲解留出空间。不要把整段文章、所有节点或整页幻灯片内容塞入生图提示词。
 
-Character: silver-blue-purple fluffy hair, round glasses, orange inner shirt, white/light-gray tech jacket, black pants, black-white-orange sneakers, friendly AI mentor energy, Q-version but not childish.
-```
+## 透明角色层
 
-After generation, remove the green background with the ImageGen chroma helper and QA on dark, white, and warm-paper backgrounds.
+仅在需要复用角色图层时生成单独 cutout。直接要求透明背景，保留全身和边缘安全距离。它是身份与动作素材，不替代最终立体实物场景。

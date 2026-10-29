@@ -64,7 +64,7 @@ The object should make the action obvious without a caption.
 
 ### 5. Labels
 
-Write 2-4 labels from real language:
+Use no text, one short viewpoint sentence, or 0–3 short labels from real language:
 
 - "先筛一遍"
 - "客户在哪"
@@ -75,7 +75,7 @@ Write 2-4 labels from real language:
 - "先做成任务"
 - "别等灵感"
 
-Keep labels short. If a label needs more than 8 Chinese characters, simplify it.
+Keep labels short and typeset clearly. A headline sentence may be longer when it remains legible on a phone. Do not add labels just to meet a count. Choose the industry material and miniature, cutaway, or magnified scale only when it clarifies the relationship.
 
 ## Shot List Format
 
@@ -89,7 +89,7 @@ Use this when planning:
 物理隐喻：
 真实主物件：
 九两动作：
-中文短标签：
+短观点或标签（可无字）：
 画面一句话：
 为什么值得画：
 ```

@@ -1,57 +1,25 @@
 # QA Checklist
 
-## Pass Criteria
+## 交付前核对
 
-The image is acceptable only if all core checks pass:
+- 九两身份稳定：银蓝紫头发、圆眼镜、橙内搭、浅灰白外套，亲切且有立体感。
+- 一张图只有一个核心观点和一处主动作；人物正在解释关系，而非无关摆拍。
+- 主物件属于文章所讲行业，有真实可辨认的材质、厚度和结构。
+- 人物与物件处于同一空间，灯光、透视、尺度、接触阴影一致。
+- 微缩、剖面或放大细节确实帮助理解；无需每张重复相同手法。
+- 留白充分、焦点清楚；物件可以精细，但画面不杂乱。
+- 文字准确、简短、清楚。封面允许大标题；正文允许一句短观点、0–3 个标签或无字，不凑固定数量。
+- 色彩随主题材质变化，品牌由人物、暖白背景和整体气质延续，不固定蓝橙。
+- 手机缩略后仍能读懂主体与文字，目标平台裁切不切掉关键内容。
+- 官方 Logo、二维码按原件使用；没有凭空添加报告、认证、数据或现场证据。
 
-- Character: clearly recognizable as 卡通九两, not Xiaohei, robot, animal mascot, or generic anime.
-- Action: one core physical action is visible within 3 seconds.
-- Object: one real main object or tight object group anchors the metaphor.
-- Labels: 0-4 short Chinese labels, readable and not explanatory paragraphs.
-- Layout: enough whitespace for article use.
-- Style: coherent light, perspective, and soft shadows; no pasted collage edges.
-- Brand fit: works with 半斤九两 warm paper, white article background, and restrained orange/blue/green accents.
-- Fact safety: no invented dates, achievements, company names, user counts, or personal claims.
+## 常见修正
 
-## Failure Signals
+- 太平：加强物件纹理、体积和自然接触阴影，让人物与物件共享光线，不只是给二维图加立体描边。
+- 太像塑料玩具：分别指定每种物件的真实材质与粗糙度，保留卡通人物，降低全局高光。
+- 太杂：删掉不参与核心关系的物件与文字；微缩车间保留必要结构，去掉装饰齿轮、图标与漂浮标签。
+- 太像旧模板：换用该行业真正的产品、材料和动作，改变镜头与人物尺度，保留质感与识别度。
+- 字多或字小：只留一句点题文字或必要短标签，重新安排留白和字号；需要更多解释的内容留给正文。
+- 人物跑偏：参考官方人物识别素材和 approved-examples.md 中的获认可效果，保留当前主题，修正九两形象。
 
-Regenerate or edit if any appears:
-
-- Jiuliang's hair, glasses, orange shirt, or white/gray jacket disappears.
-- The character becomes too realistic, too young, too toy-like, or too generic.
-- The image uses Xiaohei or a black capsule/bean character.
-- The scene becomes a PPT, workflow diagram, dashboard, UI screenshot, or poster slogan.
-- Too many objects appear because the prompt copied every article noun.
-- Text is too long or unreadable.
-- The background is a heavy gradient, dark tech scene, office stock photo, noisy paper texture, or decorative blob field.
-- The metaphor needs a long explanation to understand.
-
-## Common Fixes
-
-### Character drift
-
-```text
-Keep the scene and objects similar, but revise the character only. Make him clearly 卡通九两: silver-blue-purple fluffy hair, round glasses, orange inner shirt, white/light-gray tech jacket, black pants, black-white-orange sneakers. Do not use Xiaohei, robots, animals, or generic anime styling.
-```
-
-### Scene overloaded
-
-```text
-Regenerate with the same theme but reduce complexity. Keep one real main object, one Jiuliang action, at most two small props, and 2-3 short Chinese labels. Remove extra objects that do not serve the core physical action.
-```
-
-### Text too dense
-
-```text
-Remove long text and keep only 2-3 short handwritten Chinese labels. Each label should be 2-6 Chinese characters and should feel like real article-reader language.
-```
-
-### Weak metaphor
-
-Return to story extraction and rewrite:
-
-```text
-who is being moved by what force, through which physical action, toward what consequence?
-```
-
-Then generate again with a simpler object-action pair.
+看图后再交付，不仅检查提示词是否包含关键词。

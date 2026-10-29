@@ -1,110 +1,47 @@
-# 风格 DNA
+# 风格 DNA：九两 · 微缩实物讲解风
 
-## One Sentence
+2026-10-29 用户确认的文章配图默认风格。核心观感：人物亲切，材质可信，场景有巧思，观点讲得明白。
 
-Create a clean real-object scene where 卡通九两 performs one slightly strange but instantly understandable action, with enough whitespace for a Chinese article layout.
+## 人物与真实质感
 
-## Formula
+九两保持银蓝紫蓬松头发、圆眼镜、橙色内搭、浅灰白外套、黑裤与黑白橙鞋。以精致的立体卡通方式融入场景，保留亲切感，不变成真人或幼儿玩具。
 
-```text
-one reader situation
-+ one real main object
-+ one Jiuliang action
-+ two to four short labels
-+ sparse brand-color accents
-+ generous whitespace
-```
+真实感主要来自物件：布料看得见经纬和厚度，金属有克制反光，玻璃有透光与折射，纸张有边缘和层叠。表面粗糙度、尺度、重量、透视和接触阴影相互一致。九两与物件共享光线，避免像贴上去的人物素材。
 
-## Modes
+## 微缩与物理隐喻
 
-### Standard Article Image
+用尺度变化帮助理解关系：掀开布料露出织造车间，用一匹连续的布连接制造和交易，用放大镜查看面料纤维。
 
-- Ratio: 16:9.
-- Use for 公众号正文图 and article inline visuals.
-- Scene footprint: medium-light, usually 50%-70% of canvas width.
-- Background: clean white, warm paper, or very light neutral.
-- Best when the article needs one memorable metaphor.
+微缩场景、剖面、放大细节按内容选用，不要求每张都有小工厂或放大镜。一个清楚的动作比很多装饰符号更重要。人物必须参与讲解，但不必总占据画面中心。
 
-### Header Image
+## 构图与光影
 
-- Ratio: 2:1 or 16:9, depending on publishing channel.
-- Leave safe whitespace for title cropping.
-- Avoid tiny labels that become unreadable in thumbnail.
-- Use a stronger silhouette and one clear object-action pair.
+- 一组主题物件、一处主动作、一个观点，主次明确。
+- 默认暖白、象牙白或非常浅的中性底；背景可有自然柔和明暗，不加装饰性渐变、发光球或噪点纸纹。
+- 柔和棚拍光、自然接触阴影、适度景深。重点物件与文字清晰，不用强虚化掩盖主题。
+- 留白集中、完整，给标题和阅读留空间；近景物件可以铺开，远景微缩结构可以精细，但不要填满所有角落。
+- 封面偏简洁强识别；正文按观点选择全景、近景或细节特写。系列统一材质、光线与字体，不重复每张站位和道具。
 
-### Long-Scroll Story
+## 字与色
 
-- Ratio: 2.6:1 to 3:1.
-- Use for personal journey, project review, product evolution, course narrative, or brand story.
-- Use 5-8 nodes along a loose hand-drawn route.
-- Each node has one object, one Jiuliang action, and one short note.
-- Do not turn it into a numbered timeline or process chart.
+封面通常一个清楚的大标题，可配一行短副标题。正文通常一句短观点或 0–3 个短标签，也可无字。用清晰、克制的印刷字体，手机上易读；手写字只作可选注释。图片先传达意思，文字再点题，不重复整段正文。
 
-## Backgrounds
+暖白底、深墨字、服装橙色形成品牌连续性。物件按行业使用真实色彩，不强制蓝橙、固定三色或所有元素低饱和。鲜明的橙色布料同样可以成立，只要主体清楚、背景安静。
 
-Choose based on use case:
+## 按行业变化
 
-- Pure white `#FFFFFF`: clean article image, strongest object focus.
-- Warm paper near `#FAF7F0`: 半斤九两 brand warmth, course/article continuity.
-- Near-white `#FBFBFA`: long-scroll story with subtle studio air.
-- Deep navy or black: only for rare closed-loop, system, or night-mode scenes; keep text and object contrast controlled.
+| 内容 | 适合的物件与材质 | 可以承载关系的动作 |
+| --- | --- | --- |
+| 纺织、服装、供应链 | 布料、纱线、织机、色卡、微缩车间 | 掀开、连接、观察、测量 |
+| 五金、机械、制造 | 拉丝金属、齿轮、轴承、样件、剖面 | 拆解、校准、装配、检查 |
+| 电子、AI、数字工作流 | 电路板、接口、线缆、纸卡、实体模块 | 连接、整理、插接、筛选 |
+| 家居、木作、材料 | 木纹、织物、陶瓷、结构接合件 | 拼合、展开、比较、打磨 |
+| 外贸、客户与内容营销 | 样品盒、报价单、稿件、标签、物流箱 | 分类、打开、递交、检验 |
 
-Avoid gradients, decorative orbs, heavy shadows, paper noise, busy rooms, stock-photo backgrounds, and UI screenshots.
+先选与文章直接相关的材料和关系，再决定道具。AI 话题也不默认用机器人、悬浮界面和霓虹光线；供应链话题也不总用地球和航线。
 
-## Objects
+## 其他模式
 
-Use ordinary objects that readers already understand:
+长卷仅在内容确实需要连续故事时用，沿用同样的立体材质、柔和光线与清楚动作；路线注释按需添加，不强制手绘路线或固定节点数。用户明确指定其他风格时按该次要求执行。
 
-- AI/content work: prompt cards, notebooks, folders, tags, keyboards, browser windows as abstract paper panels, file boxes.
-- Foreign-trade/customer work: inbox tray, email draft, sample box, map pin, quote sheet, customer card, magnifier, shipping label.
-- Growth/course work: seed tray, funnel, measuring tape, dashboard printed as paper, sticky tabs, lesson cards.
-- Personal website/workbench: desk mat, route map, control panel as physical board, compass, wrench, archive box.
-- Publishing: manuscript pages, image frame, red pen, queue tray, stamp, calendar card.
-
-Use one main object or one tight object group. Add at most two props.
-
-## Labels
-
-Labels are emotional triggers, not explanations.
-
-Good labels are short and concrete:
-
-- "先筛一遍"
-- "谁要这个"
-- "客户线索"
-- "别再堆了"
-- "可复用"
-- "下一张图"
-- "先跑起来"
-- "不是灵感"
-- "能成交吗"
-
-Avoid conceptual slogans:
-
-- "构建闭环"
-- "提升效率"
-- "多维赋能"
-- "系统化增长"
-
-## Color
-
-Use the 半斤九两 palette as accents, not as a one-note wash:
-
-- Warm paper: `#FAF7F0`, `#FBF6EC`.
-- Ink: `#1F2328`.
-- Orange: `#F59E0B` or clothing accent.
-- Blue: `#2563EB` for system/AI hints.
-- Green: `#16A34A` for growth/status.
-- Red: `#EF4444` for warning/pain.
-
-Keep accents sparse. If the whole image reads as one hue family, reduce color area.
-
-## Negative Space
-
-The scene must have air. Do not fill the canvas with every concept from the article. If a prompt contains a list of objects, cut it down until one physical relationship remains.
-
-Judgment line:
-
-```text
-Can I understand the scene in 3 seconds and still feel there is room for the article to breathe?
-```
+判断句：去掉标题，能否看懂一个关系；缩到手机宽度，能否看清主体与短文字？

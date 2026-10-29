@@ -33,6 +33,10 @@ Working source:
 
 - The canonical public skill source is this repository folder. Use the bundled `assets/character/` files as the portable references.
 
+## Article rendering
+
+For article images, render this stable identity as a refined dimensional cartoon inside the realistic-material scene. The cutout and spritesheet establish identity and action vocabulary; the user-approved 2026-10-29 Keqiao examples establish the default article finish. Preserve these original character assets.
+
 ## Action Vocabulary
 
 Prefer actions that make the article's abstract point physical:

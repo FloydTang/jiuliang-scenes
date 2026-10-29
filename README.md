@@ -1,12 +1,15 @@
 # jiuliang-scenes
 
-九两 IP 场景图 Skill：把中文文章观点、读者处境、课程故事或演示文稿观点，转成带 **卡通九两** 的干净场景图。
+九两 IP 场景图 Skill：把中文文章观点、读者处境、课程故事或演示文稿观点，转成带 **卡通九两** 的微缩实物讲解图：人物保持卡通识别，物件和场景有偏真实的材质、体积与光影。
 
 核心公式：
 
 ```text
-卡通九两 + 真实物件 + 一个物理动作 + 2-4 个短中文标签 + 留白叙事
+卡通九两 + 有真实质感的主题物件 + 一个有意义的动作
++ 一个核心观点 + 简洁文字与充足留白
 ```
+
+2026-10-29 已确认为文章配图默认风格。材质、物件、主色与场景随行业变化，不固定蓝橙配色、手写标签数量或人物站位。
 
 ## 适合做什么
 
@@ -56,6 +59,7 @@ git clone https://github.com/FloydTang/jiuliang-scenes.git ~/.codex/skills/jiuli
 SKILL.md
 agents/openai.yaml
 assets/character/
+assets/examples/keqiao/
 references/
 ```
 
@@ -66,6 +70,7 @@ references/
 - `references/story-extraction.md`：从文章提炼场景
 - `references/prompt-template.md`：ImageGen 提示词模板
 - `references/qa-checklist.md`：验收与修正清单
+- `references/approved-examples.md`：本次认可的四张柯桥风格参考图（随仓库提供）
 
 ---
 
