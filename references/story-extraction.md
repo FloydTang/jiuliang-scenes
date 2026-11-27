@@ -1,112 +1,20 @@
-# 故事提炼
+# 从文章规划配图
 
-## Goal
+先读原稿，用原稿的章节标题、段落或一句原文定位。挑选读者光看文字容易略过、看了图就能理解的实物结构、过程、对比、因果或业务动作。观点类文章可以用物理隐喻，解释类文章可以直接展示实物；无需为每个小节编一个冲突。
 
-Convert text into a physical scene. Start with the reader's situation, not with decoration.
+## 从原稿到能画的画面
 
-## Five Steps
+1. **决定图要解释什么。** 封面让人认出行业和问题，正文让人看懂一个具体关系。几张图的解释任务重复时，合并或调整图位。
+2. **找有行业识别度的实物。** 优先使用原稿或已有素材里出现的产品、部件、器材、样品或资料。写出清晰可见的材质和结构，例如布料的经纬与厚度，或断路器的阻燃壳、铜触点和弹簧。遇到抽象话题，选能体现这篇文章独有关系的实体动作。
+3. **让九两做一件能在静帧里看见结果的事。** 说清操作对象、动作后露出或改变了什么，以及读者该看哪儿。根据内容决定用剖视、近景、连接、实物对照或微缩场景。让光线、接触阴影和透视把九两与实物放在同一个空间。
+4. **确定镜头与文字。** 选择最能显出关系的视角和人物尺度。标题或标签有必要才加。交给制作方时附用途、比例和参考图路径。
 
-### 1. Reader
+单个图位用几句话就能说明时，不必逐项填表。多张图可用表格按图位交付：
 
-Ask:
+| 原稿位置与图的任务 | 实物、材质、九两动作和可见结果 | 版式和参考图 |
+| --- | --- | --- |
+| 正文「一只小开关的诞生」。解释外壳里有多套部件协作 | 九两用双手抬起小型断路器的象牙白外壳，近景露出铜触点、金属弹簧与灭弧栅片，读者能沿触点看向灭弧室 | 16:9，三分之四俯视，可无字。参考柯桥正文图的立体材质和空间，采用断路器自己的材质与结构 |
 
-- Who is this for?
-- What repeated situation do they recognize?
-- Should they feel "this is me" or "this idea is clear"?
+出稿前问两句：没有标题，读者能看到九两做了什么吗？换个行业名后，这套画面还讲得通吗？前者答不出就改动作，后者答得出就换成本篇独有的实物和关系。
 
-Common 半斤九两 readers:
-
-- one-person business owners
-- foreign-trade operators
-- AI-active-development learners
-- Chinese founders doing overseas growth
-- content creators building reusable assets
-- people turning knowledge into products
-
-### 2. Conflict
-
-Compress the article into:
-
-```text
-who is being moved by what force, toward what consequence?
-```
-
-Examples:
-
-- A founder is pulled back by scattered customer messages.
-- A content creator is buried under unused drafts.
-- A foreign-trade seller filters real buyers from noisy inquiries.
-- A learner turns vague AI ideas into a working task board.
-
-### 3. Physical Action
-
-Use visible verbs:
-
-- pull, push, block, sort, filter, stamp, pin, cut, connect, weigh, catch, untangle, pack, unpack, light up, move, carry, open, close.
-
-Avoid drawing only abstract nouns. "Growth" is not a picture; a small seed tray being measured by Jiuliang is.
-
-### 4. Object
-
-Choose an object the reader already knows:
-
-- inbox tray for leads
-- magnifier for customer research
-- folder for knowledge assets
-- route map for overseas growth
-- sample box for trade
-- lesson card for course content
-- stamp for qualification
-- cable knot for process confusion
-- calendar card for publishing rhythm
-
-The object should make the action obvious without a caption.
-
-### 5. Labels
-
-Use no text, one short viewpoint sentence, or 0–3 short labels from real language:
-
-- "先筛一遍"
-- "客户在哪"
-- "可复用"
-- "别只收藏"
-- "今天发布"
-- "线索太散"
-- "先做成任务"
-- "别等灵感"
-
-Keep labels short and typeset clearly. A headline sentence may be longer when it remains legible on a phone. Do not add labels just to meet a count. Choose the industry material and miniature, cutaway, or magnified scale only when it clarifies the relationship.
-
-## Shot List Format
-
-Use this when planning:
-
-```text
-主题：
-使用模式：
-读者处境：
-核心冲突：
-物理隐喻：
-真实主物件：
-九两动作：
-短观点或标签（可无字）：
-画面一句话：
-为什么值得画：
-```
-
-## Long-Scroll Extraction
-
-For a journey or project review, make 5-8 nodes:
-
-```text
-主线：
-左侧开场：
-节点：主题 / 物件 / 九两动作 / 短注释
-右侧收束：
-```
-
-Use uneven spacing and a loose route. Do not use step numbers unless the user explicitly wants a process chart.
-
-## Fact Discipline
-
-Only include facts from user-provided text or files. If the user did not provide a date, count, company, client, award, or achievement, do not invent it.
+长卷按确有内容的变化点规划场景，每个场景也用原稿位置、物件和动作说明。用户已有实拍、报告或截图时，让真实材料承接事实，讲解图承接关系；原稿没有给出的结构细节、认证、规格或数据无需补造。
